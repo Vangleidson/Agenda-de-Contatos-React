@@ -14,7 +14,7 @@ class EditContact extends React.Component {
   update = (e) => {
     e.preventDefault();
     if (this.state.name === "" || this.state.email === "") {
-      alert("ALl the fields are mandatory!");
+      alert("Todos os campos são obrigatórios!");
       return;
     }
     this.props.updateContactHandler(this.state);
@@ -46,7 +46,7 @@ class EditContact extends React.Component {
               onChange={(e) => this.setState({ email: e.target.value })}
             />
           </div>
-          <button className="ui button blue">Atualizar</button>
+          <button className="ui primary basic button"><i class="pencil alternate icon" style={{color: "blue", marginLeft: "10px" }}></i></button>
         </form>
       </div>
     );

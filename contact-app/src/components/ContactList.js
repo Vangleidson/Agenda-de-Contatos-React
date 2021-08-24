@@ -19,14 +19,14 @@ const ContactList = (props) => {
     );
   });
   return (
-    <div className="main">
+    <div className="center main">
       <h2>
         Lista de Contatos
         <Link to="/add">
-          <button className="ui button blue right">Adicionar Contato</button>
+          <button className="ui positive basic button right"><i class="user plus icon" style={{color: "green", marginLeft: "20px" }}></i>Adicionar Contato</button>
         </Link>
       </h2>
-      <div className="ui celled list">{renderContactList}</div>
+      <div className="ui small middle aligned celled selection list">{renderContactList}</div>
     </div>
   );
 };

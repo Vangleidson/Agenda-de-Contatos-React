@@ -1,15 +1,16 @@
 .main {
-  margin-top: 7em;
+  margin-top: 1em;
 }
 
 .center {
-  justify-content: center;
+  justify-content: left;
+  color: rgba(47, 47, 230, 0.904);
   padding: 10px;
 }
 
 .ui.search input {
   width: 100%;
-  border-radius: 10 !important;
+  border-radius: 0 !important;
 }
 
 .item {
@@ -18,7 +19,7 @@
 
 i.icon {
   float: right;
-  font-size: 20px;
+  font-size: 17px;
   cursor: pointer;
 }
 
@@ -28,4 +29,3 @@ i.icon {
 .center-div {
   text-align: center;
 }
-

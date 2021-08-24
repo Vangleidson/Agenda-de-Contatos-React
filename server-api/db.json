@@ -1,9 +1,19 @@
 {
   "contacts": [
     {
-      "id": "a9056384-6628-4924-a621-96818060cecf",
+      "id": "4cf2a59a-27d9-4d4f-82a6-7f67f0bd716e",
       "name": "Van Lopes",
       "email": "vanfernandes990@gmail.com"
+    },
+    {
+      "id": "d1c35381-2d5c-4012-8e39-7ba45ffb9230",
+      "name": "Vangleidson Fernandes Lopes",
+      "email": "vanfernandes990@gmail.com"
+    },
+    {
+      "id": "19e0b0fe-594d-43a0-898f-7089d61d7500",
+      "name": "Random Custom",
+      "email": "vangledsonlopes990@gmail.com"
     }
   ]
 }
