@@ -24,10 +24,10 @@ class EditContact extends React.Component {
   render() {
     return (
       <div className="ui main">
-        <h2>Edit Contact</h2>
+        <h2>Editar Contato</h2>
         <form className="ui form" onSubmit={this.update}>
           <div className="field">
-            <label>Name</label>
+            <label>Nome</label>
             <input
               type="text"
               name="name"
@@ -46,7 +46,7 @@ class EditContact extends React.Component {
               onChange={(e) => this.setState({ email: e.target.value })}
             />
           </div>
-          <button className="ui button blue">Update</button>
+          <button className="ui button blue">Atualizar</button>
         </form>
       </div>
     );
